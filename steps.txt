@@ -1,0 +1,15 @@
+1. Accept a file
+    - Methods of accepting a file
+        * Over TCP
+        * From some queuing service
+2. Perform pre validation stuff
+    - Identify file type
+    - Parse expected metadata out
+    - Store metadata in some manner
+3. Validate the data
+    - Run the stored metadata against a series of rules
+4. Perform post validation stuff
+    - Prepare the file for output
+5. Output the file
+    - Methods of outputting a file
+        * Over TCP
