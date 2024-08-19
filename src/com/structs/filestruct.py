@@ -30,3 +30,13 @@ class FileStruct:
             bytearray: The byte array representation of the data
         """
         return self.__data_bytes
+
+    def add_attribute(self, key: str, value: str) -> None:
+        """
+        Adding new attributes or updating existing attributes in the map
+
+        Args:
+            key (str): The attribute's key
+            value (str): The value for the attribute
+        """
+        self.__attribute_map.update({key, value})
